@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { Card, CardImg } from "reactstrap";
-
 import ModalComp from "./ModalComp";
+import { Card, CardImg, CardBody, CardTitle, CardText } from "reactstrap";
+
 
 const AddMovie = ({ handleAdd }) => {
   const [show, setShow] = useState(false);
@@ -19,9 +19,9 @@ const AddMovie = ({ handleAdd }) => {
       >
         <CardImg className="Img"
           top
-          width="20px"
+          width="100px"
           style={{
-            height: "20px",
+            height: "100px",
           }}
           src={require("../assets/icon/add.png")}
           alt="Card image cap"

@@ -16,6 +16,7 @@ const MovieCard = ({ movie: { title, posterUrl, description, rate } }) => {
           backgroundImage: "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
         }}
       >
+      
         <CardTitle>
           <div className="row justify-content-center mt-2">
             <h4>{title}</h4>
@@ -38,6 +39,7 @@ const MovieCard = ({ movie: { title, posterUrl, description, rate } }) => {
         </CardBody>
       </Card>
     </div>
+    
   );
 };
 
